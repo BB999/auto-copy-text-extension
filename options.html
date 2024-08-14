@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Auto Copy Text Options</title>
+  <style>
+    /* ポップアップ全体の背景色を青に設定 */
+    body {
+      background-color: #e6f2ff;
+    }
+    /* ヘッダーの色を濃い青に設定 */
+    h1 {
+      color: #0066cc;
+    }
+    /* ボタンの色を青に設定 */
+    #save {
+      background-color: #0066cc;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+    /* ボタンのホバー効果 */
+    #save:hover {
+      background-color: #004c99;
+    }
+  </style>
+</head>
+<body>
+  <h1>Auto Copy Text Options</h1>
+  <label>
+    コピー遅延 (ミリ秒):
+    <input type="number" id="copyDelay" min="0" max="2000">
+  </label>
+  <br>
+  <button id="save">保存</button>
+
+  <script src="options.js"></script>
+</body>
+</html>
