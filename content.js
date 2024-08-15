@@ -13,7 +13,7 @@ function showPopup() {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #0066cc; // 緑色から青色に変更
+    background-color: #4CAF50; 
     color: white;
     padding: 10px;
     border-radius: 5px;
