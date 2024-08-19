@@ -10,5 +10,8 @@
       "matches": ["<all_urls>"],
       "js": ["content.js"]
     }
-  ]
+  ],
+  "icons": {
+    "128": "icon.png" // 128x128ピクセルのアイコン、ルートディレクトリに配置
+  }
 }
