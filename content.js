@@ -70,3 +70,13 @@ chrome.storage.onChanged.addListener(function(changes, namespace) {
                 storageChange.newValue);
   }
 });
+
+// アイコンをクリックしたときにポップアップを表示
+chrome.action.onClicked.addListener((tab) => {
+  chrome.scripting.executeScript({
+    target: { tabId: tab.id },
+    function: () => {
+      alert('Auto Copy Text\n\n選択したテキストを自動的にクリップボードにコピーします。');
+    }
+  });
+});

@@ -12,6 +12,9 @@
     }
   ],
   "icons": {
-    "128": "icon.png" // 128x128ピクセルのアイコン、ルートディレクトリに配置
+    "128": "icon.png"
+  },
+  "action": {
+    "default_popup": "popup.html"
   }
 }
